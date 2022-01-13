@@ -865,7 +865,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   function ja(e) {
       var a = za();
       ! function(e) {
-          window.localStorage.setItem(wa, JSON.stringify(e))
+          
       }(va(a, e))
   }
   var Sa = document.createElement("template");
@@ -972,7 +972,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   }
 
   function Pa(e) {
-      var a, s = Na(e);
+      var a, s = Math.floor(Math.random() * Aa.length);
       return a = s % Aa.length, Aa[a]
   }
 
@@ -1034,7 +1034,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
               return t !== Ya ? e += t * o : e
           }), 0) / o.gamesWon),
           function(e) {
-              window.localStorage.setItem(Wa, JSON.stringify(e))
+              
           }(o)
   }
   var Ka = document.createElement("template");
